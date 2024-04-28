@@ -1,4 +1,4 @@
-<h1>Analyzing Customer Segments and Purchasing Behavior in Retail Data</h1>
+<h1><a href="https://github.com/YelyzavetaBen/Project1/blob/main/Chips%20(1).ipynb">Analyzing Customer Segments and Purchasing Behavior in Retail Data</a></h1>
 
 <h2>Goal</h2>
 To identify customer segments based on purchasing behavior and provide insights to the Category Manager for Chips to formulate a strategic plan for the chip category.
