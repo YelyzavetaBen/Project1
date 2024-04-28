@@ -1,52 +1,29 @@
-# Project1
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Analyzing Customer Segments and Purchasing Behavior in Retail Data</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h2>Goal</h2>
+To identify customer segments based on purchasing behavior and provide insights to the Category Manager for Chips to formulate a strategic plan for the chip category.
+<br />
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project involves analyzing transaction and customer data from a retail business to understand the types of customers who purchase Chips and their purchasing behavior within the region. The dataset includes information on transactions, customer demographics, and purchasing behavior. The project will focus on data cleaning, merging transaction and customer data, analyzing sales drivers, identifying customer segments, and formulating commercial recommendations.
+<br />
+
+<h2>Skills</h2>
+data cleaning and preprocessing, data analysis and visualization, identification of sales drivers, customer segmentation analysis, formulation of commercial recommendations, hypothesis testing.
+<br />
+
+<h2>Technology</h2>
+
+- <b>Python</b> 
+- <b>Pandas</b>
+- <b>Seaborn</b> 
+- <b>Matplotlib</b>
+
+<h2>Results</h2>
+Using Python functions the analysis revealed that mainstream midage and young singles/couples are more willing to pay more per packet of chips compared to their budget and premium counterparts. This may be due to premium shoppers being more likely to buy healthy snacks, and when they buy chips, it's mainly for entertainment purposes rather than their own consumption. There are also fewer premium midage and young singles/couples buying chips compared to their mainstream counterparts.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
